@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+    color: black;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;;
+}
+
+img{
+    width:300px;
+    height:150px;
+}
+
+.menu-container{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+   
+}
+.menu-container > img , h5 ,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 25px;
+     margin:10px;
+
+}
+.menu-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.add-btn{
+    margin-bottom: 10px;;
+    font-size:25px;
+    color: white;
+    background-color: lightseagreen;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 20px;
+    
+}
+
+.menu-box{
+   
+   display: grid;
+   grid-template-columns: auto auto auto;
+
+}
+
+.order-list{
+    position:absolute;
+   top:0;
+   right:0;
+   margin:130px 100px 0px 20px;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   justify-content: center;
+    
+}
+.order-list > button{
+    font-size: 25px;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+}
